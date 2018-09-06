@@ -7,6 +7,7 @@ def fizzbuzz(int)
   if int % 15 == 0 
  "FizzBuzz"
  
+<<<<<<< HEAD
  elsif int % 5 == 0 
  "Buzz"
   
@@ -15,6 +16,16 @@ def fizzbuzz(int)
    
  else
   nil 
+=======
+ elseif int % 5 == 0 
+ "Buzz"
+  
+  elseif int % 3 == 0 
+   "Fizz"
+   
+ else
+   nil 
+>>>>>>> 393529eb1b258cbc6d03bc2baca3da32a61acb32
  end 
 end
   
